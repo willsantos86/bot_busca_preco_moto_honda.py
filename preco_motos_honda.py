@@ -30,8 +30,7 @@ driver = iniciar_driver()
 # Navegar até o site
 driver.get("https://www.honda.com.br/motos/modelos")
 
-
-# Carregar todos os elementos da tela movendo até o final da pagina e depois ao topo.
+# Carregar todos os elementos da tela movendo até o final da pagina.
 sleep(10)
 driver.execute_script('window.scrollTo(0,document.body.scrollHeight);')
 sleep(2)
